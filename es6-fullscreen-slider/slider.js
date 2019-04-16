@@ -82,7 +82,7 @@ window.onload = () => {
 
   let currentSlide = 0;
 
-  const containerWidth = setDefaultNumber(userConfig.containerWidth, 80);
+  const containerWidth = setDefaultNumber(userConfig.containerWidth, 40);
 
   const textSelection = setDefaultBoolean(userConfig.textSelection, false);
 
@@ -98,7 +98,6 @@ window.onload = () => {
   const paragraphFont = setDefaultString(userConfig.paragraphFont, "Garamond, Baskerville, Baskerville Old Face, Hoefler Text, Times New Roman, serif");
   const paragraphFontSize = setDefaultNumber(userConfig.paragraphFontSize, 1.2);
   const paragraphFontWeight = setDefaultNumber(userConfig.paragraphFontWeight, 400);
-  const paragraphWidth = setDefaultNumber(userConfig.paragraphWidth, 40);
 
   const addFontAwesome = setDefaultBoolean(userConfig.addFontAwesome, true);
 
@@ -133,23 +132,23 @@ window.onload = () => {
   const showOnMobile = setDefaultBoolean(userConfig.showOnMobile, true);
   const maxMobileScreenWidth = setDefaultNumber(userConfig.maxMobileScreenWidth, 900);
   const sliderHeightOnMobile = setDefaultNumber(userConfig.sliderHeightOnMobile, 100);
-  const mobileContainerWidth = setDefaultNumber(userConfig.mobileContainerWidth, 20);
+  const mobileContainerWidth = setDefaultNumber(userConfig.mobileContainerWidth, 65);
 
   const showHeaderMobile = setDefaultBoolean(userConfig.showHeaderMobile, true);
   const headerAlignMobile = setDefaultString(userConfig.headerAlignMobile, "center");
-  const headerFontSizeMobile = setDefaultNumber(userConfig.headerFontSizeMobile, 25);
-  const headerMarginBottomMobile = setDefaultNumber(userConfig.headerMarginBottomMobile, 10);
+  const headerFontSizeMobile = setDefaultNumber(userConfig.headerFontSizeMobile, 35);
+  const headerMarginBottomMobile = setDefaultNumber(userConfig.headerMarginBottomMobile, 20);
 
   const showParagraphMobile = setDefaultBoolean(userConfig.showParagraphMobile, true);
   const paragraphAlignMobile = setDefaultString(userConfig.paragraphAlignMobile, "justify");
-  const paragraphFontSizeMobile = setDefaultNumber(userConfig.paragraphFontSizeMobile, 14);
+  const paragraphFontSizeMobile = setDefaultNumber(userConfig.paragraphFontSizeMobile, 20);
 
   const bulletSizeMobile = setDefaultNumber(userConfig.bulletSizeMobile, 5);
-  const bulletMarginSidesMobile = setDefaultNumber(userConfig.bulletMarginSidesMobile, 0.2);
-  const bulletBottomPositionMobile = setDefaultNumber(userConfig.bulletBottomPositionMobile, 5);
+  const bulletMarginSidesMobile = setDefaultNumber(userConfig.bulletMarginSidesMobile, 4);
+  const bulletBottomPositionMobile = setDefaultNumber(userConfig.bulletBottomPositionMobile, 25);
 
-  const arrowSizeMobile = setDefaultNumber(userConfig.arrowSizeMobile, 6);
-  const arrowSidesPositionMobile = setDefaultNumber(userConfig.arrowSidesPositionMobile, 4);
+  const arrowSizeMobile = setDefaultNumber(userConfig.arrowSizeMobile, 12);
+  const arrowSidesPositionMobile = setDefaultNumber(userConfig.arrowSidesPositionMobile, 5);
 
   const defineTextSelection = () => {
     if (textSelection) {
