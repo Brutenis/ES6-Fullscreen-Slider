@@ -6,7 +6,7 @@ These instructions will help you implement a copy of the slider on your project 
 
 ### Implementation
 Simply place this code block wherever you want your slider to be:
-```
+```html
 <div class="es6-fullscreen-slider"></div>
 <script src="es6-fullscreen-slider/slider.js"></script>
 <script src="es6-fullscreen-slider/config.js"></script>
