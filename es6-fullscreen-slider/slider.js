@@ -453,7 +453,7 @@ window.onload = () => {
         color: ${paragraphColor};
         transition: ${defineTransition(paragraphTransition, paragraphTransitionDuration)};
         margin: 0 auto;
-        text-align: justify;
+        text-align: ${paragraphAlign};
         opacity: 0;
       }
 
