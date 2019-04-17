@@ -84,10 +84,10 @@ Set your custom values to the **userConfig** object referenced in **es6-fullscre
   - *Setting to* ***false*** *will hide the pagination of the slider*
   
 - **bulletIcon** (string)
-  - *Add your wanted Font Awesome class name from: https://fontawesome.com/icons
+  - *Add your wanted Font Awesome class name from*: https://fontawesome.com/icons
   
 - **bulletActiveIcon** (string)
-  - *Icon for the bullet representing the active slide. Add your wanted Font Awesome class name from: https://fontawesome.com/icons
+  - *Icon for the bullet representing the active slide. Add your wanted Font Awesome class name from*: https://fontawesome.com/icons
   
 - **bulletSize** (number)
   - *Measured in viewport width units*
