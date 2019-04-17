@@ -15,5 +15,5 @@ Simply place this code block wherever you want your slider to be. Make sure the 
 ### Configuration
 Set you custom values to the **userConfig** object located in **es6-fullscreen-slider/config.js**. Available properties:
 
-- **containerWidth**
+- **containerWidth** (number)
   - *The width of the container wrapping the slide content*
