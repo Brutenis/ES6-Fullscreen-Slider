@@ -542,7 +542,7 @@ window.onload = () => {
         }
 
         .es6-fullscreen-slider .slider-bullet {
-          font-size: ${bulletSizeMobile};
+          font-size: ${bulletSizeMobile}vw;
           margin: 0px ${bulletMarginSidesMobile}px 0px ${bulletMarginSidesMobile}px;
         }
 
