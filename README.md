@@ -45,7 +45,7 @@ Set your custom values to the **userConfig** object referenced in **es6-fullscre
   - *Defines whether the slide content is selectable*
 
 - **showHeader** (boolean)
-  - *Setting to* ***false*** *will make all of the headers within the slider invisible*
+  - *Setting to* ***false*** *will hide all of the headers within the slider*
 
 - **headerAlign** (string)
   - *Available values:* ***left***, ***center***, ***right*** *and* ***justify***
@@ -58,3 +58,9 @@ Set your custom values to the **userConfig** object referenced in **es6-fullscre
   
 - **headerFontWeight** (number)
   - *400* - *regular*, *500* - *medium*, *600* - *semi bold*, *700* - *bold*
+  
+- **headerMarginBottom** (number)
+  - *The gap between the header and paragraph (viewport width units)
+  
+- **showParagraph** (boolean)
+  - *Setting to* ***false*** *will hide all of the paragraphs within the slider*
