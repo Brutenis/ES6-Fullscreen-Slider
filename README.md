@@ -87,7 +87,7 @@ Set your custom values to the **userConfig** object referenced in **es6-fullscre
   - *Add your wanted Font Awesome class name from: https://fontawesome.com/icons*
   
 - **bulletActiveIcon** (string)
-  - *Icon for the bullet representing the active slide. Add your wanted Font Awesome class name from: https://fontawesome.com/icons*
+  - *Icon for the bullet representing the active slide, add your wanted Font Awesome class name from: https://fontawesome.com/icons*
   
 - **bulletSize** (number)
   - *Measured in viewport width units*
@@ -97,9 +97,9 @@ Set your custom values to the **userConfig** object referenced in **es6-fullscre
   
 - **bulletBottomPosition** (number)
   - *The gap between the pagination and the bottom of the slider, easured in viewport width units*
+  
+- **showArrows** (boolean)
+  - *Setting to* ***false*** *will hide the arrow navigation*
 
 - **arrowLeftIcon** (string)
   - *Add your wanted Font Awesome class name from: https://fontawesome.com/icons*
-  
--  **showArrows** (boolean)
-  - *Setting to* ***false*** *will hide the arrow navigation*
