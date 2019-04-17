@@ -5,7 +5,7 @@ Easily configurable and responsive fullscreen image slider, ready to use on your
 These instructions will help you implement a copy of the slider on your project and configure to your own preference.
 
 ### Implementation
-Simply place this code block wherever you want your slider to be. Make sure the **es6-fullscreen-slider** folder is in the same directory.
+Simply place this code block wherever you want your slider to be. Make sure the **es6-fullscreen-slider** folder is located in the same directory.
 ```html
 <div class="es6-fullscreen-slider"></div>
 <script src="es6-fullscreen-slider/slider.js"></script>
