@@ -25,7 +25,7 @@ Set your custom values to the **userConfig** object located in **es6-fullscreen-
   - *Setting to* ***false*** *will make all of the headers within the slider invisible*
 
 - **headerAlign** (string)
-  - *Available values:* ***left***, ***center***, ***right*** and ***justify***
+  - *Available values:* ***left***, ***center***, ***right*** *and* ***justify***
 
 - **headerFont** (string)
   - *Sets the font-family property for the headers within the slider*
