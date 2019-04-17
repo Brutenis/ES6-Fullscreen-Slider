@@ -13,7 +13,7 @@ Simply place this code block wherever you want your slider to be. Make sure the 
 ```
 
 ### Adding Slides
-1. Add all of your *photograph.jpg* to the **es6-fullscreen-slider/photos** directory
+1. Add your *photograph.jpg* to the **es6-fullscreen-slider/photos** directory
 2. Reference it inside one of the objects within the **sliderContent** array at **es6-fullscreen-slider/config.js**
 3. Add headers and paragraphs to your slides
 
