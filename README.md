@@ -96,7 +96,7 @@ Set your custom values to the **userConfig** object referenced in **es6-fullscre
   - *Gaps between the bullets in the pagination, measured in the viewport width units*
   
 - **bulletBottomPosition** (number)
-  - *The gap between the pagination and the bottom of the slider, easured in viewport width units*
+  - *The gap between the pagination and the bottom of the slider, easured in viewport height units*
   
 - **showArrows** (boolean)
   - *Setting to* ***false*** *will hide the arrow navigation*
@@ -151,3 +151,35 @@ Set your custom values to the **userConfig** object referenced in **es6-fullscre
   
 - **paragraphTransitionDuration** (number)
   - *Duration of how long it takes for the paragraph to fade in*
+
+### Responsive Settings
+
+- **showOnMobile** (boolean)
+  - *Setting to* ***false*** *will hide the slider on mobile devices*
+  
+- **maxMobileScreenWidth** (number)
+  - *The width from which the responsive settings no longer apply, measured in pixels*
+  
+- **sliderHeightOnMobile** (number)
+  - *Custom slider height that will only apply to mobile devices, measured in viewport height units*
+  
+- **mobileContainerWidth** (number)
+  - *The width of the container wrapping the content, measured in viewpoert width units*
+  
+- **showHeaderMobile** (boolean)
+  - *Setting to* ***false*** *will hide the headers on mobile devices*
+  
+- **headerAlignMobile** (string)
+  - *Available values:* ***left***, ***center***, ***right*** *and* ***justify***
+  
+- **headerFontSizeMobile** (number)
+  - *Custom header font size for mobile devices, measured in pixels*
+  
+- **headerMarginBottomMobile** (number)
+  - *The gap between the header and paragraph, measured in pixels*
+  
+- **showParagraphMobile** (boolean)
+  - *Setting to* ***false*** *will hide the paragraphs on mobile devices*
+  
+- **paragraphAlignMobile** (boolean)
+  - *Available values:* ***left***, ***center***, ***right*** *and* ***justify***
