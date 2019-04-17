@@ -12,8 +12,31 @@ Simply place this code block wherever you want your slider to be. Make sure the 
 <script src="es6-fullscreen-slider/config.js"></script>
 ```
 
+### Adding Slides
+1. Add all of your *photograph.jpg* to the **es6-fullscreen-slider/photos** directory
+2. Reference it inside one of the objects within the **sliderContent** array at **es6-fullscreen-slider/config.js**
+3. Add headers and paragraphs to your slides
+
+Example:
+
+```javascript
+sliderContent = [
+  {
+    header: "This is your header",
+    paragraph: "This is your paragraph",
+    photo: "photograph.jpg"
+  },
+  
+  {
+    header: "This is another slide",
+    paragraph: "And this is its paragraph"
+    photo: "photograph2.jpg"
+  }
+]
+```
+
 ### Configuration
-Set your custom values to the **userConfig** object located in **es6-fullscreen-slider/config.js**. Available properties:
+Set your custom values to the **userConfig** object referenced in **es6-fullscreen-slider/config.js**. Available properties:
 
 - **containerWidth** (number)
   - *The width of the container wrapping the slide content (viewport width units)*
