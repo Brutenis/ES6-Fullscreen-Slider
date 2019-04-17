@@ -103,3 +103,33 @@ Set your custom values to the **userConfig** object referenced in **es6-fullscre
 
 - **arrowLeftIcon** (string)
   - *Add your wanted Font Awesome class name from: https://fontawesome.com/icons*
+  
+- **arrowRightIcon** (string)
+  - *Add your wanted Font Awesome class name from: https://fontawesome.com/icons*
+  
+- **arrowSize** (number)
+  - *Measured in viewport width units*
+  
+- **arrowSidesPosition** (number)
+  - *The gap between the sides of the slider and arrows, measured in viewport width units*
+  
+- **headerColor** (string)
+  - *Add a wanted hexadecimal color code, for example:* ***#fefefe***
+  
+- **paragraphColor** (string)
+  - *Add a wanted hexadecimal color code, for example:* ***#dedede***
+  
+- **bulletColor** (string)
+  - *Add a wanted hexadecimal color code, for example:* ***#080808***
+  
+- **arrowColor** (string)
+  - *Add a wanted hexadecimal color code, for example:* ***#fff***
+  
+- **arrowInactiveColor** (string)
+  - *Color that indicates the end or the beginning of the slider, takes hexadecial codes*
+  
+- **overlayColorRGBA** (string)
+  - *RGBA color code for the overlay of the slide to make the text more visible, for example: 255,255,255
+  
+- **overlayOpacity** (number)
+  - *The opacity of the overlay, number values from 0 to 1*
