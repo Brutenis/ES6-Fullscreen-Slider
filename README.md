@@ -19,4 +19,7 @@ Set you custom values to the **userConfig** object located in **es6-fullscreen-s
   - *The width of the container wrapping the slide content (viewport width units)*
 
 - **textSelection** (boolean)
-  - *Defines wether the slide content is selectable*
+  - *Defines whether the slide content is selectable*
+
+- **showHeader** (boolean)
+  - *Makes all of the headers invisible within the slider if **false** *
