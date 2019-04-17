@@ -1,5 +1,5 @@
 # ES6-Fullscreen-Slider
-Easily configurable, responsive fullscreen image slider, ready to use on your website.
+Easily configurable and responsive fullscreen image slider, ready to use on your website.
 
 ## Getting Started
 These instructions will help you implement a copy of the slider on your project and configure to your own preference.
@@ -15,4 +15,5 @@ Simply place this code block wherever you want your slider to be. Make sure the 
 ### Configuration
 Set you custom values to the **userConfig** object located in **es6-fullscreen-slider/config.js**. Available properties:
 
-- containerWidth
+- containerWidth (number for viewport width units)
+  - 123
