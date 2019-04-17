@@ -200,4 +200,4 @@ Set your custom values by tweaking the **userConfig** object referenced in **es6
   - *Measured in viewport width units*
   
 - **arrowSidesPositionMobile** (number)
-  - *The gap between the sides of the slider and arrows on mobile devices, measured in viewport width units
+  - *The gap between the sides of the slider and arrows on mobile devices, measured in viewport width units*
