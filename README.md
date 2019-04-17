@@ -94,3 +94,12 @@ Set your custom values to the **userConfig** object referenced in **es6-fullscre
   
 - **bulletMarginSides** (number)
   - *Gaps between the bullets in the pagination, measured in the viewport width units*
+  
+- **bulletBottomPosition** (number)
+  - *The gap between the pagination and the bottom of the slider. Measured in viewport width units*
+  
+-  **showArrows** (boolean)
+  - *Setting to* ***false*** *will hide the arrow navigation*
+  
+- **arrowLeftIcon** (string)
+  - *Add your wanted Font Awesome class name from: https://fontawesome.com/icons*
