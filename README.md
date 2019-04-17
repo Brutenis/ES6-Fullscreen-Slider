@@ -26,3 +26,12 @@ Set your custom values to the **userConfig** object located in **es6-fullscreen-
 
 - **headerAlign** (string)
   - *Available values:* ***left***, ***center***, ***right*** and ***justify***
+
+- **headerFont** (string)
+  - *Sets the font-family property for the headers within the slider*
+
+- **headerFontSize** (number)
+  - *Measured in viewport width units*
+  
+- **headerFontWeight** (number)
+  - *400 - regular, 500 - medium, 600 - semi bold, 700 - bold
