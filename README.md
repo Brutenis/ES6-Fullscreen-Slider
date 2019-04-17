@@ -64,3 +64,33 @@ Set your custom values to the **userConfig** object referenced in **es6-fullscre
   
 - **showParagraph** (boolean)
   - *Setting to* ***false*** *will hide all of the paragraphs within the slider*
+  
+- **paragraphAlign** (string)
+  - *Available values:* ***left***, ***center***, ***right*** *and* ***justify***
+  
+- **paragraphFont** (string)
+  - *Sets the font-family property for the paragraphs within the slider*
+  
+- **paragraphFontSize** (number)
+  - *Measured in viewport width units*
+  
+- **paragraphFontWeight** (number)
+  - *400* - *regular*, *500* - *medium*, *600* - *semi bold*, *700* - *bold*
+  
+- **addFontAwesome** (boolean)
+  - *Font Awesome from CDN is added to the <head> tag if* ***true***
+  
+- **showBullets** (boolean)
+  - *Setting to* ***false*** *will hide the pagination of the slider*
+  
+- **bulletIcon** (string)
+  - *Add your wanted Font Awesome class name from: https://fontawesome.com/icons
+  
+- **bulletActiveIcon** (string)
+  - *Icon for the bullet representing the active slide. Add your wanted Font Awesome class name from: https://fontawesome.com/icons
+  
+- **bulletSize** (number)
+  - *Measured in viewport width units*
+  
+- **bulletMarginSides** (number)
+  - *Gaps between the bullets in the pagination, measured in the viewport width units*
