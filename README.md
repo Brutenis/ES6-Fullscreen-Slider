@@ -129,7 +129,25 @@ Set your custom values to the **userConfig** object referenced in **es6-fullscre
   - *Color that indicates the end or the beginning of the slider, takes hexadecial codes*
   
 - **overlayColorRGBA** (string)
-  - *RGBA color code for the overlay of the slide to make the text more visible, for example: 255,255,255
+  - *RGBA color code for the overlay of the slide to make the text more visible, for example: 255,255,255*
   
 - **overlayOpacity** (number)
   - *The opacity of the overlay, number values from 0 to 1*
+
+- **slideTransition** (boolean)
+  - *Setting to* ***false*** *will disable automatic slider scrolling which will result in instantaneous jumping between the slides*
+  
+- **slideTransitionDuration** (number)
+  - *Duration of how long it takes for the slide to scroll, measured in seconds*
+  
+- **headerTransition** (boolean)
+  - *Setting to* ***false*** *will disable the header fade-in effect*
+  
+- **headerTransitionDuration** (number)
+  - *Duration of how long it takes for the header to fade in*
+  
+- **paragraphTransition** (boolean)
+  - *Setting to* ***false*** *will disable the paragraph fade-in effect*
+  
+- **paragraphTransitionDuration** (number)
+  - *Duration of how long it takes for the paragraph to fade in*
