@@ -36,7 +36,7 @@ sliderContent = [
 ```
 
 ### Configuration
-Set your custom values to the **userConfig** object referenced in **es6-fullscreen-slider/config.js**. Available properties:
+Set your custom values by tweaking the **userConfig** object referenced in **es6-fullscreen-slider/config.js**. Available properties:
 
 - **containerWidth** (number)
   - *The width of the container wrapping the slide content (viewport width units)*
@@ -96,7 +96,7 @@ Set your custom values to the **userConfig** object referenced in **es6-fullscre
   - *Gaps between the bullets in the pagination, measured in the viewport width units*
   
 - **bulletBottomPosition** (number)
-  - *The gap between the pagination and the bottom of the slider, easured in viewport height units*
+  - *The gap between the pagination and the bottom of the slider, measured in viewport height units*
   
 - **showArrows** (boolean)
   - *Setting to* ***false*** *will hide the arrow navigation*
@@ -183,3 +183,21 @@ Set your custom values to the **userConfig** object referenced in **es6-fullscre
   
 - **paragraphAlignMobile** (boolean)
   - *Available values:* ***left***, ***center***, ***right*** *and* ***justify***
+  
+- **paragraphFontSizeMobile** (number)
+  - *Measured in pixels*
+  
+- **bulletSizeMobile** (number)
+  - *Measured in viewport units*]
+  
+- **bulletMarginSidesMobile** (number)
+  - *Gaps between the bullets in the pagination on mobile devices, measured in pixels*
+  
+- **bulletBottomPositionMobile** (number)
+  - *The gap between the pagination and the bottom of the slider, measured in pixels*
+  
+- **arrowSizeMobile** (number)
+  - *Measured in viewport width units*
+  
+- **arrowSidesPositionMobile** (number)
+  - *The gap between the sides of the slider and arrows on mobile devices, measured in viewport width units*
