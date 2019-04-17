@@ -34,4 +34,4 @@ Set your custom values to the **userConfig** object located in **es6-fullscreen-
   - *Measured in viewport width units*
   
 - **headerFontWeight** (number)
-  - *400 - regular, 500 - medium, 600 - semi bold, 700 - bold
+  - *400* - *regular*, *500* - *medium*, *600* - *semi bold*, *700* - *bold*
