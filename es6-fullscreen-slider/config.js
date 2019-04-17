@@ -1,6 +1,6 @@
-//  Numeric values for font size, margins and width stand for viewport units
-//  Numeric values for transition duration stand for milliseconds
-//  Bullet icon values are the Font Awesome class names. More information at: https://fontawesome.com/icons
+//  Numeric values for font size, margins and width stand for viewport units, unless specified otherwise
+//  Numeric values for transition duration stand for seconds
+//  Bullet and icon values are the Font Awesome class names. More information at: https://fontawesome.com/icons
 
 const userConfig = {
 
