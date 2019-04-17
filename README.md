@@ -22,4 +22,4 @@ Set you custom values to the **userConfig** object located in **es6-fullscreen-s
   - *Defines whether the slide content is selectable*
 
 - **showHeader** (boolean)
-  - *Makes all of the headers invisible within the slider if* ***false***
+  - *If* ***false****, all of the headers become invisible within the slider*
